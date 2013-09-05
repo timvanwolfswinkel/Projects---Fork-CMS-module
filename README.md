@@ -5,10 +5,10 @@ Projects Fork-CMS-module
 
 ## Installation
 
-1 You need Fork CMS version 3.6.1
-2 Download the .zip containing the frontend and backend folder.
-3 Go to www.yourwebsite.com/private/en/extensions/upload_module and select the .zip
-4 The install adds a new page to every active language. As a demo, a category called Default is added with a project called James Bond containing some text and images.
+1. You need Fork CMS version 3.6.1
+2. Download the .zip containing the frontend and backend folder.
+3. Go to www.yourwebsite.com/private/en/extensions/upload_module and select the .zip
+4. The install adds a new page to every active language. As a demo, a category called Default is added with a project called James Bond containing some text and images.
 
 ## Features
 Actually this module is a 'marriage' between the FAQ and Photogallery module. You can create different categories each containing different projects.
