@@ -2,6 +2,18 @@
 <locale>
   <backend>
     <core>
+      <item type="label" name="AllowEnlargment">
+        <translation language="en"><![CDATA[vergroting toestaan]]></translation>
+        <translation language="nl"><![CDATA[in de kijker]]></translation>
+      </item>
+      <item type="label" name="ForceAspectRatio">
+        <translation language="en"><![CDATA[force aspect ratio]]></translation>
+        <translation language="nl"><![CDATA[beeldverhouding behouden]]></translation>
+      </item>
+      <item type="label" name="AllowMultipleCategories">
+        <translation language="en"><![CDATA[allow multiple categories]]></translation>
+        <translation language="nl"><![CDATA[meerdere categorieën toestaan]]></translation>
+      </item>
       <item type="label" name="Spotlight">
         <translation language="en"><![CDATA[spotlight]]></translation>
         <translation language="nl"><![CDATA[In de kijker]]></translation>
