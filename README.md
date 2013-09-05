@@ -3,6 +3,8 @@ Projects Fork-CMS-module
 
 # README
 
+<img scr="fork-project.lexxweb.be/images/projects.jpg" alt="screenshot add a project" />
+
 ## Installation
 
 1. You need Fork CMS version 3.6.1
@@ -21,19 +23,27 @@ A projects exists of the following fields:
 - Metadata (category and tags)
 - SEO tab
 
+<img scr="fork-project.lexxweb.be/images/add_project.jpg" alt="screenshot add a project" />
+
 ### Widgets
 There are two widgets available:
 
-####Categories
+### Categories
 A simple list with the categories. 
 
-####Spotlight
+<img scr="http://fork-project.lexxweb.be/images/categories.jpg" alt="screenshot categories widget" />
+
+### Spotlight
 This widget will randomly pick a project that has been set as a spotlight project. This comes in handy to show off projects e.g. on the homepage.
+
+<img src="http://fork-project.lexxweb.be/images/spotlight.jpg" alt="screenshot spotlight widget" />
 
 ### Settings
 In the settings page www.yourwebsite.com/private/en/projects/settings you can do the following:
 - Define 3 image dimensions, these can be used in the frontend. (width, height, allow enlargement, force aspect ratio).
 - Allow multiple categories.
+
+<img src="http://fork-project.lexxweb.be/images/settings.jpg" alt="screenshot settings" />
 
 ## Applicability
 This module can be used for lots of purposes:
