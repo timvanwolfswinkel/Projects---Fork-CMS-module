@@ -10,6 +10,10 @@
         <translation language="en"><![CDATA[force aspect ratio]]></translation>
         <translation language="nl"><![CDATA[beeldverhouding behouden]]></translation>
       </item>
+      <item type="label" name="Dimension">
+        <translation language="en"><![CDATA[dimension]]></translation>
+        <translation language="nl"><![CDATA[afmeting]]></translation>
+      </item>
       <item type="label" name="AllowMultipleCategories">
         <translation language="en"><![CDATA[allow multiple categories]]></translation>
         <translation language="nl"><![CDATA[meerdere categorieën toestaan]]></translation>
