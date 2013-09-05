@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<locale>
+  <backend>
+    <core>
+      <item type="label" name="Spotlight">
+        <translation language="en"><![CDATA[spotlight]]></translation>
+        <translation language="nl"><![CDATA[In de kijker]]></translation>
+      </item>
+      <item type="label" name="Projects">
+        <translation language="nl"><![CDATA[projecten]]></translation>
+        <translation language="en"><![CDATA[projects]]></translation>
+      </item>
+      <item type="label" name="AddImage">
+        <translation language="nl"><![CDATA[afbeelding toevoegen]]></translation>
+        <translation language="en"><![CDATA[add image]]></translation>
+      </item>
+      <item type="label" name="BackToOverview">
+        <translation language="nl"><![CDATA[terug naar het overzicht]]></translation>
+        <translation language="en"><![CDATA[back to the overview]]></translation>
+      </item>
+    </core>
+    <projects>
+      <item type="label" name="Spotlight">
+        <translation language="nl"><![CDATA[In de kijker]]></translation>
+        <translation language="en"><![CDATA[Spotlight]]></translation>
+      </item>
+      <item type="label" name="Project">
+        <translation language="nl"><![CDATA[project]]></translation>
+        <translation language="en"><![CDATA[project]]></translation>
+      </item>
+      <item type="message" name="Spotlight">
+        <translation language="nl"><![CDATA[In de kijker]]></translation>
+        <translation language="en"><![CDATA[Spotlight]]></translation>
+      </item>
+      <item type="message" name="NoProjectsInCategory">
+        <translation language="nl"><![CDATA[Er zijn geen projecten in deze categorie.]]></translation>
+        <translation language="en"><![CDATA[There are no projects in this category.]]></translation>
+      </item>
+      <item type="label" name="Projects">
+        <translation language="nl"><![CDATA[projecten]]></translation>
+        <translation language="en"><![CDATA[projects]]></translation>
+      </item>
+      <item type="label" name="ManageImages">
+        <translation language="nl"><![CDATA[beheer afbeeldingen]]></translation>
+        <translation language="en"><![CDATA[manage images]]></translation>
+      </item>
+    </projects>
+  </backend>
+  <frontend>
+    <core>
+      <item type="label" name="Spotlight">
+        <translation language="en"><![CDATA[spotlight]]></translation>
+        <translation language="nl"><![CDATA[in de kijker]]></translation>
+      </item>
+      <item type="message" name="ToProjectsOverview">
+        <translation language="nl"><![CDATA[terug naar het overzicht]]></translation>
+        <translation language="en"><![CDATA[back to the overview]]></translation>
+      </item>
+    </core>
+      <item type="label" name="NoProjectsInCategory">
+        <translation language="nl"><![CDATA[Er zijn geen projecten in deze categorie.]]></translation>
+        <translation language="en"><![CDATA[There are no projects in this category.]]></translation>
+      </item>
+      <item type="message" name="ProjectsNoItems">
+        <translation language="nl"><![CDATA[Er zijn nog geen projecten.]]></translation>
+        <translation language="en"><![CDATA[There are no projects yet.]]></translation>
+      </item>
+      <item type="message" name="ToProjectsOverview">
+        <translation language="nl"><![CDATA[Naar het overzicht van alle projecten.]]></translation>
+        <translation language="en"><![CDATA[To the projects overview.]]></translation>
+      </item>
+  </frontend>
+</locale>
