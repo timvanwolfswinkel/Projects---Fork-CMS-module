@@ -3,8 +3,8 @@
   <backend>
     <core>
       <item type="label" name="AllowEnlargment">
-        <translation language="en"><![CDATA[vergroting toestaan]]></translation>
-        <translation language="nl"><![CDATA[in de kijker]]></translation>
+        <translation language="en"><![CDATA[allow enlargment]]></translation>
+        <translation language="nl"><![CDATA[vergroting toestaan]]></translation>
       </item>
       <item type="label" name="ForceAspectRatio">
         <translation language="en"><![CDATA[force aspect ratio]]></translation>
