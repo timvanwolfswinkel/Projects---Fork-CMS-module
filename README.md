@@ -3,7 +3,7 @@ Projects Fork-CMS-module
 
 # README
 
-<img scr="fork-project.lexxweb.be/images/projects.jpg" alt="screenshot add a project" />
+<img scr="http://fork-project.lexxweb.be/images/projects.jpg" alt="screenshot add a project" />
 
 ## Installation
 
@@ -23,7 +23,7 @@ A projects exists of the following fields:
 - Metadata (category and tags)
 - SEO tab
 
-<img scr="fork-project.lexxweb.be/images/add_project.jpg" alt="screenshot add a project" />
+<img scr="http://fork-project.lexxweb.be/images/add_project.jpg" alt="screenshot add a project" />
 
 ### Widgets
 There are two widgets available:
