@@ -3,7 +3,7 @@ Projects Fork-CMS-module
 
 # README
 
-<img scr="http://fork-project.lexxweb.be/images/projects.jpg" alt="screenshot add a project" />
+<img src="http://fork-project.lexxweb.be/images/projects.jpg" alt="screenshot frontend project." />
 
 ## Installation
 
