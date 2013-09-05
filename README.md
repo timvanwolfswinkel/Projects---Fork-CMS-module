@@ -31,12 +31,12 @@ There are two widgets available:
 ### Categories
 A simple list with the categories. 
 
-<img scr="http://fork-project.lexxweb.be/images/categories.jpg" alt="screenshot categories widget" />
+<img src="http://fork-project.lexxweb.be/images/categories.jpg" alt="Categories widget"/>
 
 ### Spotlight
 This widget will randomly pick a project that has been set as a spotlight project. This comes in handy to show off projects e.g. on the homepage.
 
-<img src="http://fork-project.lexxweb.be/images/spotlight.jpg" alt="screenshot spotlight widget" />
+<img src="http://fork-project.lexxweb.be/images/spotlight.jpg" alt"Spotlight widget"/>
 
 ### Settings
 In the settings page www.yourwebsite.com/private/en/projects/settings you can do the following:
