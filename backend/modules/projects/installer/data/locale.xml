@@ -60,6 +60,14 @@
         <translation language="nl"><![CDATA[beheer afbeeldingen]]></translation>
         <translation language="en"><![CDATA[manage images]]></translation>
       </item>
+      <item type="message" name="EditProject">
+        <translation language="nl"><![CDATA[bewerk project "%1$s"]]></translation>
+        <translation language="en"><![CDATA[edit project "%1$s"]]></translation>
+      </item>
+      <item type="label" name="EditImage">
+        <translation language="nl"><![CDATA[wijzig afbeelding]]></translation>
+        <translation language="en"><![CDATA[edit image]]></translation>
+      </item>
     </projects>
   </backend>
   <frontend>
