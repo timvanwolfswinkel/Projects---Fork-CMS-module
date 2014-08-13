@@ -23,7 +23,7 @@ A projects exists of the following fields:
 - Metadata (category and tags)
 - SEO tab
 
-<img scr="http://fork-project.lexxweb.be/images/add_project.jpg" alt="screenshot add a project" />
+<img src="http://fork-project.lexxweb.be/images/add_project.jpg" alt="screenshot add a project" />
 
 ### Widgets
 There are two widgets available:

@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<locale>
+  <Backend>
+    <Core>
+      <item type="label" name="AllowEnlargment">
+        <translation language="en"><![CDATA[allow enlargment]]></translation>
+        <translation language="nl"><![CDATA[vergroting toestaan]]></translation>
+      </item>
+      <item type="label" name="ForceAspectRatio">
+        <translation language="en"><![CDATA[force aspect ratio]]></translation>
+        <translation language="nl"><![CDATA[beeldverhouding behouden]]></translation>
+      </item>
+      <item type="label" name="Dimension">
+        <translation language="en"><![CDATA[dimension]]></translation>
+        <translation language="nl"><![CDATA[afmeting]]></translation>
+      </item>
+      <item type="label" name="AllowMultipleCategories">
+        <translation language="en"><![CDATA[allow multiple categories]]></translation>
+        <translation language="nl"><![CDATA[meerdere categorieën toestaan]]></translation>
+      </item>
+      <item type="label" name="Spotlight">
+        <translation language="en"><![CDATA[spotlight]]></translation>
+        <translation language="nl"><![CDATA[In de kijker]]></translation>
+      </item>
+      <item type="label" name="Projects">
+        <translation language="nl"><![CDATA[projecten]]></translation>
+        <translation language="en"><![CDATA[projects]]></translation>
+      </item>
+      <item type="label" name="AddImage">
+        <translation language="nl"><![CDATA[afbeelding toevoegen]]></translation>
+        <translation language="en"><![CDATA[add image]]></translation>
+      </item>
+      <item type="label" name="BackToOverview">
+        <translation language="nl"><![CDATA[terug naar het overzicht]]></translation>
+        <translation language="en"><![CDATA[back to the overview]]></translation>
+      </item>
+    </Core>
+    <Projects>
+      <item type="label" name="AddClient">
+        <translation language="nl"><![CDATA[Referentie toevoegen]]></translation>
+        <translation language="en"><![CDATA[Add client]]></translation>
+      </item>
+      <item type="label" name="AddFile">
+        <translation language="nl"><![CDATA[Bestand toevoegen]]></translation>
+        <translation language="en"><![CDATA[Add file]]></translation>
+      </item>
+      <item type="label" name="AddProject">
+        <translation language="nl"><![CDATA[Project toevoegen]]></translation>
+        <translation language="en"><![CDATA[Add project]]></translation>
+      </item>
+      <item type="label" name="AddVideo">
+        <translation language="nl"><![CDATA[Video toevoegen]]></translation>
+        <translation language="en"><![CDATA[Add video]]></translation>
+      </item>
+      <item type="label" name="Client">
+        <translation language="nl"><![CDATA[Referentie]]></translation>
+        <translation language="en"><![CDATA[Client]]></translation>
+      </item>
+      <item type="label" name="Clients">
+        <translation language="nl"><![CDATA[Referenties]]></translation>
+        <translation language="en"><![CDATA[Clients]]></translation>
+      </item>
+      <item type="label" name="EditFile">
+        <translation language="nl"><![CDATA[Wijzig bestand]]></translation>
+        <translation language="en"><![CDATA[Edit file]]></translation>
+      </item>
+      <item type="label" name="EditImage">
+        <translation language="nl"><![CDATA[Wijzig afbeelding]]></translation>
+        <translation language="en"><![CDATA[Edit image]]></translation>
+      </item>
+      <item type="label" name="EditVideo">
+        <translation language="nl"><![CDATA[Wijzig video]]></translation>
+        <translation language="en"><![CDATA[Edit video]]></translation>
+      </item>
+      <item type="label" name="EmbeddedUrl">
+        <translation language="nl"><![CDATA[Embedded URL]]></translation>
+        <translation language="en"><![CDATA[Edit file]]></translation>
+      </item>
+      <item type="label" name="Files">
+        <translation language="nl"><![CDATA[Bestanden]]></translation>
+        <translation language="en"><![CDATA[Files]]></translation>
+      </item>
+      <item type="label" name="Logo">
+        <translation language="nl"><![CDATA[Logo]]></translation>
+        <translation language="en"><![CDATA[Logo]]></translation>
+      </item>
+      <item type="label" name="ManageMedia">
+        <translation language="nl"><![CDATA[beheer media]]></translation>
+        <translation language="en"><![CDATA[manage media]]></translation>
+      </item>
+      <item type="label" name="Media">
+        <translation language="nl"><![CDATA[Media]]></translation>
+        <translation language="en"><![CDATA[Media]]></translation>
+      </item>
+      <item type="label" name="NoProjectReference">
+        <translation language="nl"><![CDATA[Dit project bevat geen referentie.]]></translation>
+        <translation language="en"><![CDATA[This project has no clients.]]></translation>
+      </item>
+      <item type="label" name="NoProjects">
+        <translation language="nl"><![CDATA[Er zijn nog geen projecten in deze categorie.]]></translation>
+        <translation language="en"><![CDATA[There are no projects in this category.]]></translation>
+      </item>
+      <item type="label" name="Project">
+        <translation language="nl"><![CDATA[project]]></translation>
+        <translation language="en"><![CDATA[project]]></translation>
+      </item>
+      <item type="label" name="Projects">
+        <translation language="nl"><![CDATA[projecten]]></translation>
+        <translation language="en"><![CDATA[projects]]></translation>
+      </item>
+      <item type="label" name="RelatedProjects">
+        <translation language="nl"><![CDATA[Gerelateerde projecten]]></translation>
+        <translation language="en"><![CDATA[Related projects]]></translation>
+      </item>
+      <item type="label" name="Spotlight">
+        <translation language="nl"><![CDATA[In de kijker]]></translation>
+        <translation language="en"><![CDATA[Spotlight]]></translation>
+      </item>
+      <item type="label" name="Video">
+        <translation language="nl"><![CDATA[Video]]></translation>
+        <translation language="en"><![CDATA[Video]]></translation>
+      </item>
+      <item type="label" name="Videos">
+        <translation language="nl"><![CDATA[Videos]]></translation>
+        <translation language="en"><![CDATA[Videos]]></translation>
+      </item>
+      <item type="message" name="AddedClient">
+        <translation language="nl"><![CDATA[Referentie is toegevoegd.]]></translation>
+        <translation language="en"><![CDATA[Client added.]]></translation>
+      </item>
+      <item type="message" name="ConfirmDeleteClient">
+        <translation language="nl"><![CDATA[Weet u zeker dat deze referentie wilt verwijderen?]]></translation>
+        <translation language="en"><![CDATA[Are you sure you want to remove this client?]]></translation>
+      </item>
+      <item type="message" name="DeletedClient">
+        <translation language="nl"><![CDATA[Referentie is verwijderd.]]></translation>
+        <translation language="en"><![CDATA[Client removed.]]></translation>
+      </item>
+      <item type="message" name="EditClient">
+        <translation language="nl"><![CDATA[Referentie wijzigen]]></translation>
+        <translation language="en"><![CDATA[Edit client]]></translation>
+      </item>
+      <item type="message" name="EditedClient">
+        <translation language="nl"><![CDATA[Referentie is gewijzigd.]]></translation>
+        <translation language="en"><![CDATA[Client edited.]]></translation>
+      </item>
+      <item type="message" name="EditProject">
+        <translation language="nl"><![CDATA[Wijzigen]]></translation>
+        <translation language="en"><![CDATA[Edit]]></translation>
+      </item>
+      <item type="message" name="NoClients">
+        <translation language="nl"><![CDATA[Er zijn nog geen referenties.]]></translation>
+        <translation language="en"><![CDATA[There are no clients yet.]]></translation>
+      </item>
+      <item type="message" name="NoProjectFiles">
+        <translation language="nl"><![CDATA[Dit project bevat nog geen bestanden.]]></translation>
+        <translation language="en"><![CDATA[This project does not contain files yes.]]></translation>
+      </item>
+      <item type="message" name="NoProjectImages">
+        <translation language="nl"><![CDATA[Dit project bevat nog geen afbeeldingen.]]></translation>
+        <translation language="en"><![CDATA[This project does not contain images yet.]]></translation>
+      </item>
+      <item type="message" name="NoProjectsInCategory">
+        <translation language="nl"><![CDATA[Er zijn geen projecten in deze categorie.]]></translation>
+        <translation language="en"><![CDATA[There are no projects in this category.]]></translation>
+      </item>
+      <item type="message" name="NoProjectVideos">
+        <translation language="nl"><![CDATA[Dit project bevat nog geen videos.]]></translation>
+        <translation language="en"><![CDATA[This project does not contain videos yet.]]></translation>
+      </item>
+      <item type="message" name="RelatedProjects">
+        <translation language="nl"><![CDATA[Gerelateerde projecten]]></translation>
+        <translation language="en"><![CDATA[Related projects]]></translation>
+      </item>
+      <item type="message" name="Spotlight">
+        <translation language="nl"><![CDATA[In de kijker]]></translation>
+        <translation language="en"><![CDATA[Spotlight]]></translation>
+      </item>
+    </Projects>
+  </Backend>
+  <Frontend>
+    <Core>
+      <item type="label" name="Client">
+        <translation language="en"><![CDATA[client]]></translation>
+        <translation language="nl"><![CDATA[referentie]]></translation>
+      </item>
+      <item type="label" name="Clients">
+        <translation language="en"><![CDATA[clients]]></translation>
+        <translation language="nl"><![CDATA[referenties]]></translation>
+      </item>
+      <item type="label" name="Images">
+        <translation language="en"><![CDATA[images]]></translation>
+        <translation language="nl"><![CDATA[afbeeldingen]]></translation>
+      </item>
+      <item type="label" name="Spotlight">
+        <translation language="en"><![CDATA[spotlight]]></translation>
+        <translation language="nl"><![CDATA[in de kijker]]></translation>
+      </item>
+      <item type="label" name="NoProjectsInCategory">
+        <translation language="nl"><![CDATA[Er zijn geen projecten in deze categorie.]]></translation>
+        <translation language="en"><![CDATA[There are no projects in this category.]]></translation>
+      </item>
+      <item type="message" name="ProjectsNoItems">
+        <translation language="nl"><![CDATA[Er zijn nog geen projecten.]]></translation>
+        <translation language="en"><![CDATA[There are no projects yet.]]></translation>
+      </item>
+      <item type="message" name="ToProjectsOverview">
+        <translation language="nl"><![CDATA[Naar het overzicht van alle projecten.]]></translation>
+        <translation language="en"><![CDATA[To the projects overview.]]></translation>
+      </item>
+      <item type="action" name="Client">
+        <translation language="nl"><![CDATA[referentie]]></translation>
+        <translation language="en"><![CDATA[client]]></translation>
+      </item>
+      
+    </Core>
+  </Frontend>
+</locale>
