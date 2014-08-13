@@ -3,7 +3,7 @@ Projects Fork-CMS-module
 
 # README
 
-<img src="http://fork-project.lexxweb.be/images/project.jpg" alt="screenshot frontend project." />
+<img src="http://projectsmodule.forkcms.lexxweb.be/screenshots/projects.jpg" alt="screenshot frontend project." />
 
 ## Installation
 
@@ -23,7 +23,7 @@ A projects exists of the following fields:
 - Metadata (category and tags)
 - SEO tab
 
-<img src="http://fork-project.lexxweb.be/images/add_project.jpg" alt="screenshot add a project" />
+<img src="http://projectsmodule.forkcms.lexxweb.be/screenshots/add_projects.jpg" alt="screenshot add a project" />
 
 ### Widgets
 There are two widgets available:
@@ -31,19 +31,19 @@ There are two widgets available:
 ### Categories
 A simple list with the categories. 
 
-<img src="http://fork-project.lexxweb.be/images/categories.jpg" alt="Categories widget"/>
+<img src="http://projectsmodule.forkcms.lexxweb.be/screenshots/categories.jpg" alt="Categories widget"/>
 
 ### Spotlight
 This widget will randomly pick a project that has been set as a spotlight project. This comes in handy to show off projects e.g. on the homepage.
 
-<img src="http://fork-project.lexxweb.be/images/spotlight.jpg" alt"Spotlight widget"/>
+<img src="http://projectsmodule.forkcms.lexxweb.be/screenshots/spotlight.jpg" alt"Spotlight widget"/>
 
 ### Settings
 In the settings page www.yourwebsite.com/private/en/projects/settings you can do the following:
 - Define 3 image dimensions, these can be used in the frontend. (width, height, allow enlargement, force aspect ratio).
 - Allow multiple categories.
 
-<img src="http://fork-project.lexxweb.be/images/settings.jpg" alt="screenshot settings" />
+<img src="http://projectsmodule.forkcms.lexxweb.be/screenshots/settings.jpg" alt="screenshot settings" />
 
 ## Applicability
 This module can be used for lots of purposes:
