@@ -19,7 +19,6 @@ A projects exists of the following fields:
 - Summary
 - Main content
 - Status (hidden/published)
-- Spotlight (widget)
 - Metadata (date, category, client and tags)
 - Spotlight
 - Related projects
@@ -39,7 +38,7 @@ A simple list with the categories.
 ### Clients
 A simple list with clients. 
 
-<img src="projectsmodule.forkcms.lexxweb.be/screenshots/clients.jpg" alt="Clients widget"/>
+<img src="http://projectsmodule.forkcms.lexxweb.be/screenshots/clients.jpg" alt="Clients widget"/>
 
 ### Spotlight
 This widget will randomly pick a project that has been set as a spotlight project. This comes in handy to show off projects e.g. on the homepage.
