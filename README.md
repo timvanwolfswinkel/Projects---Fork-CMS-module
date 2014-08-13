@@ -1,5 +1,5 @@
-Projects Fork-CMS-module
-========================
+Projects Fork-CMS-module 2.0.1
+==============================
 
 # README
 
@@ -7,7 +7,7 @@ Projects Fork-CMS-module
 
 ## Installation
 
-1. You need Fork CMS version 3.6.1
+1. You need Fork CMS version 3.7
 2. Download the .zip containing the frontend and backend folder.
 3. Go to www.yourwebsite.com/private/en/extensions/upload_module and select the .zip
 4. The install adds a new page to every active language. As a demo, a category called Default is added with a project called James Bond containing some text and images.
@@ -20,18 +20,26 @@ A projects exists of the following fields:
 - Main content
 - Status (hidden/published)
 - Spotlight (widget)
-- Metadata (category and tags)
+- Metadata (date, category, client and tags)
+- Spotlight
+- Related projects
 - SEO tab
+- Media page: multiple images, files and videos.
 
 <img src="http://projectsmodule.forkcms.lexxweb.be/screenshots/add_projects.jpg" alt="screenshot add a project" />
 
 ### Widgets
-There are two widgets available:
+There are three widgets available:
 
 ### Categories
 A simple list with the categories. 
 
 <img src="http://projectsmodule.forkcms.lexxweb.be/screenshots/categories.jpg" alt="Categories widget"/>
+
+### Clients
+A simple list with clients. 
+
+<img src="projectsmodule.forkcms.lexxweb.be/screenshots/clients.jpg" alt="Clients widget"/>
 
 ### Spotlight
 This widget will randomly pick a project that has been set as a spotlight project. This comes in handy to show off projects e.g. on the homepage.
