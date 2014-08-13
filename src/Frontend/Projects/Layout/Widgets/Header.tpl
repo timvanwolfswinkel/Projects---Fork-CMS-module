@@ -1,0 +1,1 @@
+<!--{$widgetProjectsHeader|dump}-->
