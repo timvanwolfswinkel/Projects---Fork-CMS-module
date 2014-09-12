@@ -12,11 +12,13 @@ namespace Frontend\Modules\Projects\Widgets;
 use Frontend\Core\Engine\Base\Widget as FrontendBaseWidget;
 use Frontend\Core\Engine\Navigation as FrontendNavigation;
 use Frontend\Modules\Projects\Engine\Model as FrontendProjectsModel;
+use Frontend\Core\Engine\Theme as FrontendTheme;
 
 /**
  * This is a widget to view projects within a category
  *
- * @author Tim van Wolfswinkel <tim@reclame-mediabureau.nl>
+ * @author Tim van Wolfswinkel <tim@webleads.nl>
+ * @author Jacco de Heus <jacco@webleads.nl>
  */
 class Category extends FrontendBaseWidget
 {
@@ -32,30 +34,7 @@ class Category extends FrontendBaseWidget
 	 */
 	public function assignTemplate()
 	{
-		$template = FrontendTheme::getPath(FRONTEND_MODULES_PATH . '/projects/layout/widgets/category.tpl');
-
-	//	var_dump($template);
-		
-		// is the content block visible?
-		if(!empty($this->item))
-		{
-			//var_dump($this->item);
-			
-			// check if the given template exists
-			try
-			{
-				//$template = FrontendTheme::getPath(FRONTEND_MODULES_PATH . '/projects/layout/widgets/' . $this->item['template']);
-			}
-
-			// template does not exist; use the default template
-			catch(FrontendException $e)
-			{
-				// do nothing
-			}
-		}
-
-		// set a default text so we don't see the template data
-		//else $this->item['text'] = '';
+		$template = FrontendTheme::getPath(FRONTEND_MODULES_PATH.'/Projects/Layout/Widgets/Category.tpl');
 
 		return $template;
 	}
@@ -81,7 +60,6 @@ class Category extends FrontendBaseWidget
 	private function loadData()
 	{
 		$this->item = FrontendProjectsModel::getAllForCategory((int) $this->data['id']);
-		//die(print_r($this->item));
 	}
 	
 	/**
@@ -89,8 +67,6 @@ class Category extends FrontendBaseWidget
 	 */
 	private function parse()
 	{
-		//die(print_r($this->item));
-		
 		if($this->item){
 			$this->tpl->assign('widgetProjectsInCategory', $this->item);
 		}
