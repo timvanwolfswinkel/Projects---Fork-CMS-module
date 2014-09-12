@@ -24,5 +24,5 @@
 {/option:widgetProjectsInCategory}
 
 {option:!widgetProjectsInCategory}
-	<p>{$lblNoCateories}</p>
+	<p>{$lblNoProjectsInCategory}</p>
 {/option:!widgetProjectsInCategory}
