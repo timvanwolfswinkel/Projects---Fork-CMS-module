@@ -24,5 +24,5 @@
 {/option:widgetProjectsInCategory}
 
 {option:!widgetProjectsInCategory}
-<p>Geen ene moer te zien hier, loop maar door..</p>
+	<p>{$lblNoCateories}</p>
 {/option:!widgetProjectsInCategory}
