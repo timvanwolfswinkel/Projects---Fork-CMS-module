@@ -14,6 +14,7 @@ use Backend\Core\Engine\Model as BackendModel;
 use Backend\Core\Engine\Form as BackendForm;
 use Backend\Core\Engine\Language as BL;
 use Backend\Modules\Projects\Engine\Model as BackendProjectsHelper;
+use Backend\Modules\Projects\Engine\Model as BackendProjectsModel;
  
 /**
  * This is the edit image action, it will display a form to edit an existing project image.
