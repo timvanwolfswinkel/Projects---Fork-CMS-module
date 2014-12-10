@@ -65,7 +65,7 @@ class Settings extends BackendBaseActionEdit
 		$this->frm->addCheckbox('force_aspect_ratio3', BackendModel::getModuleSetting($this->URL->getModule(), 'force_aspect_ratio3', false));
 		
 		$this->frm->addCheckbox('allow_multiple_categories', BackendModel::getModuleSetting($this->URL->getModule(), 'allow_multiple_categories', false));
-        $this->frm->addText('amount_of_recent_products', BackendModel::getModuleSetting($this->URL->getModule(), 'amount_of_recent_products', false));
+        	$this->frm->addText('amount_of_recent_products', BackendModel::getModuleSetting($this->URL->getModule(), 'amount_of_recent_products', false));
 	}
 
 	/**
@@ -94,7 +94,7 @@ class Settings extends BackendBaseActionEdit
 				BackendModel::setModuleSetting($this->URL->getModule(), 'force_aspect_ratio3', (bool) $this->frm->getField('force_aspect_ratio3')->getValue());
 								
 				BackendModel::setModuleSetting($this->URL->getModule(), 'allow_multiple_categories', (bool) $this->frm->getField('allow_multiple_categories')->getValue());
-                BackendModel::setModuleSetting($this->URL->getModule(), 'amount_of_recent_products', (int) $this->frm->getField('amount_of_recent_products')->getValue());
+                		BackendModel::setModuleSetting($this->URL->getModule(), 'amount_of_recent_products', (int) $this->frm->getField('amount_of_recent_products')->getValue());
 
 				// redirect to the settings page
 				$this->redirect(BackendModel::createURLForAction('settings') . '&report=saved');
