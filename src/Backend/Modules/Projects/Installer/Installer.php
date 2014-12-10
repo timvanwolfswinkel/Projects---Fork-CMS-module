@@ -145,14 +145,14 @@ class Installer extends ModuleInstaller
 		$this->setActionRights(1, 'Projects', 'SequenceVideos');
 		$this->setActionRights(1, 'Projects', 'MassAction');
 
-        $this->setActionRights(1, 'Projects', 'Settings');
+        	$this->setActionRights(1, 'Projects', 'Settings');
 
 		// blocks or widgets
-        $projectsId = $this->insertExtra('Projects', 'block', 'Projects', null, null, 'N', 1000);
-        $this->insertExtra('Projects', 'widget', 'Spotlight', 'Spotlight', null, null, 'N', 1001);
-        $this->insertExtra('Projects', 'widget', 'RecentProjects', 'RecentProjects', null, null, 'N', 1002);
-        $this->insertExtra('Projects', 'widget', 'Categories', 'Categories', null, null, 'N', 1003);
-        $this->insertExtra('Projects', 'widget', 'Clients', 'Clients', null, null, 'N', 1004);
+	        $projectsId = $this->insertExtra('Projects', 'block', 'Projects', null, null, 'N', 1000);
+	        $this->insertExtra('Projects', 'widget', 'Spotlight', 'Spotlight', null, null, 'N', 1001);
+	        $this->insertExtra('Projects', 'widget', 'RecentProjects', 'RecentProjects', null, null, 'N', 1002);
+	        $this->insertExtra('Projects', 'widget', 'Categories', 'Categories', null, null, 'N', 1003);
+	        $this->insertExtra('Projects', 'widget', 'Clients', 'Clients', null, null, 'N', 1004);
 
 		// settings		
 		$this->setSetting('Projects', 'width1', (int)400);
@@ -171,7 +171,7 @@ class Installer extends ModuleInstaller
 		$this->setSetting('Projects', 'force_aspect_ratio3', true);
 		
 		$this->setSetting('Projects', 'allow_multiple_categories', true);
-        $this->setSetting('Projects', 'amount_of_recent_products', (int)3);
+        	$this->setSetting('Projects', 'amount_of_recent_products', (int)3);
 				
 		foreach($this->getLanguages() as $language)
 		{
