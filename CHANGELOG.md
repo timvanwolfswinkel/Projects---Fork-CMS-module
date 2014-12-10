@@ -1,3 +1,9 @@
+2.0.2 (xxxx-xx-xx)
+--
+Improvements
+
+* Added a recent products widget
+
 2.0.1 (2014-08-13)
 --
 
