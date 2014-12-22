@@ -465,6 +465,49 @@ class Model implements FrontendTagsInterface
     }
 
     /**
+     * @param int $limit
+     * @param int $offset
+     * @return array
+     */
+    public static function getRecentProjects($limit = 10, $offset = 0)
+    {
+        $items = (array)FrontendModel::getContainer()->get('database')->getRecords(
+            'SELECT i.*, UNIX_TIMESTAMP(i.created_on) AS created_on,
+              m.url, c.title AS category_title, mc.url AS category_url, mcl.url AS client_url
+             FROM projects AS i
+             INNER JOIN meta AS m ON i.meta_id = m.id
+             INNER JOIN projects_categories AS c ON i.category_id = c.id
+             INNER JOIN meta AS mc ON c.meta_id = mc.id
+             INNER JOIN projects_clients AS cl ON i.client_id = cl.id
+             INNER JOIN meta AS mcl ON cl.meta_id = mcl.id
+             WHERE i.language = ? AND hidden = ?
+             ORDER BY i.created_on DESC
+             LIMIT ?, ?',
+            array(FRONTEND_LANGUAGE, 'N', (int)$offset, (int)$limit));
+
+        // no results?
+        if (empty($items)) return array();
+
+        $detailUrl = FrontendNavigation::getURLForBlock('Projects', 'Detail');
+        $categoryUrl = FrontendNavigation::getURLForBlock('Projects', 'Category');
+        $clientUrl = FrontendNavigation::getURLForBlock('Projects', 'Client');
+
+        // prepare items
+        $numberOfImagesToShowInList = FrontendModel::getModuleSetting('Projects', 'overview_num_of_images', 1);
+        foreach ($items as &$item) {
+            $images = self::getImages($item['id'], $numberOfImagesToShowInList);
+            if (!empty($images)) {
+                $item['images'] = $images;
+            }
+            $item['full_url'] = $detailUrl . '/' . $item['url'];
+            $item['category_full_url'] = $categoryUrl . '/' . $item['category_url'];
+            $item['client_full_url'] = $clientUrl . '/' . $item['client_url'];
+        }
+
+        return $items;
+    }
+
+    /**
      * Get related projects
      *
      * @param int $id
