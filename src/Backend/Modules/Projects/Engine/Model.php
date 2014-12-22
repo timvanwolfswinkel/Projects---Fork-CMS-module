@@ -116,7 +116,7 @@ class Model
             $db->update('projects', array('category_id' => null), 'category_id = ?', array($id));
 
             // invalidate the cache for the projects
-            BackendModel::invalidateFrontendCache('projects', BL::getWorkingLanguage());
+            BackendModel::invalidateFrontendCache('Projects', BL::getWorkingLanguage());
         }
     }
 
@@ -207,8 +207,6 @@ class Model
             \SpoonFile::delete($basePath . '/' . BackendModel::getModuleSetting('projects', 'width2') . 'x' . BackendModel::getModuleSetting('projects', 'height2') . '/' . $item['filename']);
             \SpoonFile::delete($basePath . '/' . BackendModel::getModuleSetting('projects', 'width3') . 'x' . BackendModel::getModuleSetting('projects', 'height3') . '/' . $item['filename']);
         }
-
-        BackendModel::invalidateFrontendCache('slideshowCache');
     }
 
     /**
@@ -853,7 +851,7 @@ class Model
     {
         $insertId = BackendModel::getContainer()->get('database')->insert('projects', $item);
 
-        BackendModel::invalidateFrontendCache('projects', BL::getWorkingLanguage());
+        BackendModel::invalidateFrontendCache('Projects', BL::getWorkingLanguage());
 
         return $insertId;
     }
@@ -874,10 +872,10 @@ class Model
 
         // build extra
         $extra = array(
-            'module' => 'projects',
+            'module' => 'Projects',
             'type' => 'widget',
             'label' => 'Category',
-            'action' => 'category',
+            'action' => 'Category',
             'data' => null,
             'hidden' => 'N',
             'sequence' => $db->getVar(
@@ -915,7 +913,7 @@ class Model
             array($extra['id'], $extra['module'], $extra['type'], $extra['action'])
         );
 
-        BackendModel::invalidateFrontendCache('projects', BL::getWorkingLanguage());
+        BackendModel::invalidateFrontendCache('Projects', BL::getWorkingLanguage());
 
         return $item['id'];
     }
@@ -934,7 +932,7 @@ class Model
         if ($meta !== null) $item['meta_id'] = $db->insert('meta', $meta);
         $item['id'] = $db->insert('projects_clients', $item);
 
-        BackendModel::invalidateFrontendCache('projects', BL::getWorkingLanguage());
+        BackendModel::invalidateFrontendCache('Projects', BL::getWorkingLanguage());
 
         return $item['id'];
     }
@@ -983,7 +981,7 @@ class Model
     public static function update(array $item)
     {
         BackendModel::getContainer()->get('database')->update('projects', $item, 'id = ?', array((int)$item['id']));
-        BackendModel::invalidateFrontendCache('projects', BL::getWorkingLanguage());
+        BackendModel::invalidateFrontendCache('Projects', BL::getWorkingLanguage());
     }
 
     /**
@@ -998,10 +996,10 @@ class Model
         // build extra
         $extra = array(
             'id' => $item['extra_id'],
-            'module' => 'projects',
+            'module' => 'Projects',
             'type' => 'widget',
             'label' => 'Category',
-            'action' => 'category',
+            'action' => 'Category',
             'data' => serialize(array(
                     'id' => $item['id'],
                     'extra_label' => $item['title'],
@@ -1016,7 +1014,7 @@ class Model
         // update category
         $db->update('projects_categories', $item, 'id = ?', array($item['id']));
 
-        BackendModel::invalidateFrontendCache('projects', BL::getWorkingLanguage());
+        BackendModel::invalidateFrontendCache('Projects', BL::getWorkingLanguage());
     }
 
     /**
@@ -1027,7 +1025,7 @@ class Model
     public static function updateClient(array $item)
     {
         BackendModel::getContainer()->get('database')->update('projects_clients', $item, 'id = ?', array($item['id']));
-        BackendModel::invalidateFrontendCache('projects', BL::getWorkingLanguage());
+        BackendModel::invalidateFrontendCache('Projects', BL::getWorkingLanguage());
     }
 
     /**
@@ -1036,7 +1034,6 @@ class Model
      */
     public static function updateImage(array $item)
     {
-        BackendModel::invalidateFrontendCache('projectsCache');
         return (int)BackendModel::getContainer()->get('database')->update(
             'projects_images',
             $item,
@@ -1056,8 +1053,6 @@ class Model
         } else {
             $item['id'] = self::insertImage($item);
         }
-
-        BackendModel::invalidateFrontendCache('projectsCache');
         return (int)$item['id'];
     }
 
@@ -1067,7 +1062,6 @@ class Model
      */
     public static function updateFile(array $item)
     {
-        BackendModel::invalidateFrontendCache('projectsCache');
         return (int)BackendModel::getContainer()->get('database')->update(
             'projects_files',
             $item,
@@ -1087,8 +1081,6 @@ class Model
         } else {
             $item['id'] = self::insertFile($item);
         }
-
-        BackendModel::invalidateFrontendCache('projectsCache');
         return (int)$item['id'];
     }
 
@@ -1098,7 +1090,6 @@ class Model
      */
     public static function updateVideo(array $item)
     {
-        BackendModel::invalidateFrontendCache('projectsCache');
         return (int)BackendModel::getContainer()->get('database')->update(
             'projects_videos',
             $item,
@@ -1118,8 +1109,6 @@ class Model
         } else {
             $item['id'] = self::insertVideo($item);
         }
-
-        BackendModel::invalidateFrontendCache('projectsCache');
         return (int)$item['id'];
     }
 
