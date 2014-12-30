@@ -53,7 +53,7 @@
 	    <ul>
 		{iteration:clients}
 		<li>
-		    <a class=title" href="{$clients.full_url}">{$clients.title}</a>
+		    <a class="title" href="{$clients.full_url}">{$clients.title}</a>
 		    {option:clients.image}
                     <a class="image" href="{$clients.full_url}">
                         <img src="{$clients.image}" title="{$clients.title}" alt="{$clients.title}" class="clientImage"/>
