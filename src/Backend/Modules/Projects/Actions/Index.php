@@ -70,7 +70,7 @@ class Index extends BackendBaseActionIndex
 			$dataGrid->setRowAttributes(array('client' => '[client_id]'));
 			
 			// check if this action is allowed
-			if(BackendAuthentication::isAllowedAction('edit'))
+			if(BackendAuthentication::isAllowedAction('Edit'))
 			{
 				$dataGrid->addColumn('media', null, BL::lbl('Media'), BackendModel::createURLForAction('media') . '&amp;id=[id]', BL::lbl('Media'));
 				$dataGrid->setColumnFunction(array(__CLASS__, 'setMediaLink'), array('[id]'), 'media');

@@ -62,13 +62,13 @@ class Categories extends BackendBaseActionIndex
 		$this->dataGrid->setPaging(false);
 
 		// check if this action is allowed
-		if(BackendAuthentication::isAllowedAction('index'))
+		if(BackendAuthentication::isAllowedAction('Index'))
 		{
 			$this->dataGrid->setColumnFunction(array(__CLASS__, 'setClickableCount'), array('[num_items]', BackendModel::createURLForAction('index') . '&amp;category=[id]'), 'num_items', true);
 		}
 
 		// check if this action is allowed
-		if(BackendAuthentication::isAllowedAction('edit_category'))
+		if(BackendAuthentication::isAllowedAction('EditCategory'))
 		{
 			$this->dataGrid->setColumnURL('title', BackendModel::createURLForAction('edit_category') . '&amp;id=[id]');
 			$this->dataGrid->addColumn('edit', null, BL::lbl('Edit'), BackendModel::createURLForAction('edit_category') . '&amp;id=[id]', BL::lbl('Edit'));
@@ -85,7 +85,7 @@ class Categories extends BackendBaseActionIndex
 		$this->tpl->assign('dataGrid', ($this->dataGrid->getNumResults() != 0) ? $this->dataGrid->getContent() : false);
 
 		// check if this action is allowed
-		if(BackendAuthentication::isAllowedAction('add_category') && $this->multipleCategoriesAllowed)
+		if(BackendAuthentication::isAllowedAction('AddCategory') && $this->multipleCategoriesAllowed)
 		{
 			$this->tpl->assign('showProjectsAddCategory', true);
 		}
