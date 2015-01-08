@@ -80,7 +80,7 @@ class EditClient extends BackendBaseActionEdit
 
 		// assign the data
 		$this->tpl->assign('item', $this->record);
-		$this->tpl->assign('showProjectsDeleteClient', BackendProjectsModel::deleteClientAllowed($this->id) && BackendAuthentication::isAllowedAction('delete_client'));
+		$this->tpl->assign('showProjectsDeleteClient', BackendProjectsModel::deleteClientAllowed($this->id) && BackendAuthentication::isAllowedAction('DeleteClient'));
 	}
 
 	/**
