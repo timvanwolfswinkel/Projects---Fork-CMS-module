@@ -148,9 +148,10 @@ class Installer extends ModuleInstaller
 		
 		// blocks or widgets
 		$projectsId = $this->insertExtra('Projects', 'block', 'Projects');
-		$this->insertExtra('Projects', 'widget', 'Spotlight', 'spotlight');
-		$this->insertExtra('Projects', 'widget', 'Categories', 'categories');
-		$this->insertExtra('Projects', 'widget', 'Clients', 'clients');
+		$this->insertExtra('Projects', 'widget', 'Spotlight', 'Spotlight');
+		$this->insertExtra('Projects', 'widget', 'Categories', 'Categories');
+		$this->insertExtra('Projects', 'widget', 'Clients', 'Clients');
+		$this->insertExtra('Projects', 'widget', 'Related', 'Related');
 		$this->setActionRights(1, 'Projects', 'Settings');
 				
 		// settings		

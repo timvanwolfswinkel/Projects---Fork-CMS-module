@@ -12,6 +12,7 @@ namespace Frontend\Modules\Projects\Widgets;
 use Frontend\Core\Engine\Base\Widget as FrontendBaseWidget;
 use Frontend\Core\Engine\Navigation as FrontendNavigation;
 use Frontend\Modules\Projects\Engine\Model as FrontendProjectsModel;
+use Frontend\Modules\Tags\Engine\Model as FrontendTagsModel;
 
 /**
  * This is a widget with the related projects based on tags
@@ -107,7 +108,7 @@ class Related extends FrontendBaseWidget
 	private function getTags()
 	{
 		// get page id
-		$pageId = Spoon::get('page')->getId();
+        $pageId = $this->getContainer()->get('page')->getId();
 
 		// array of excluded records
 		$this->exclude[] = array('module' => 'pages', 'other_id' => $pageId);
