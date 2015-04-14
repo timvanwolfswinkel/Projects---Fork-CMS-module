@@ -124,7 +124,7 @@ class Related extends FrontendBaseWidget
 		foreach((array) $record['extra_blocks'] as $block)
 		{
 			// set module class
-			$class = 'Frontend' . SpoonFilter::toCamelCase($block['module']) . 'Model';
+			$class = 'Frontend' . \SpoonFilter::toCamelCase($block['module']) . 'Model';
 
 			if(is_callable(array($class, 'getIdForTags')))
 			{
