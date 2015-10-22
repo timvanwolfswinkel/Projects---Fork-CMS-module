@@ -155,7 +155,7 @@ jsBackend.projects =
 								{
 									data:
 									{
-									fork: { action: 'sequence_projects' },
+									fork: { action: 'SequenceProjects' },
 									projectId: projectId,
 									fromCategoryId: fromCategoryId,
 									toCategoryId: toCategoryId,
