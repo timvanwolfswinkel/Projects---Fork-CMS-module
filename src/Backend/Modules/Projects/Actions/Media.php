@@ -82,7 +82,7 @@ class Media extends BackendBaseActionIndex
 		$this->dgImages = new BackendDataGridDB(BackendProjectsModel::QRY_DATAGRID_BROWSE_IMAGES, $this->id);
 		$this->dgImages->setAttributes(array('class' => 'dataGrid sequenceByDragAndDrop'));
 		$this->dgImages->setAttributes(array('id' => 'projects_images_dg'));
-		$this->dgImages->setAttributes(array('data-action' => 'sequence_images'));			
+		$this->dgImages->setAttributes(array('data-action' => 'SequenceImages'));			
 		  
 		$this->dgImages->setColumnHidden('sequence');
 		$this->dgImages->setColumnHidden('project_id');
@@ -116,7 +116,7 @@ class Media extends BackendBaseActionIndex
 		
 		$this->dgFiles->setAttributes(array('class' => 'dataGrid sequenceByDragAndDrop'));
 		$this->dgFiles->setAttributes(array('id' => 'projects_files_dg'));
-		$this->dgFiles->setAttributes(array('data-action' => 'sequence_files'));
+		$this->dgFiles->setAttributes(array('data-action' => 'SequenceFiles'));
 	      
 		$this->dgFiles->setColumnHidden('sequence');
 		$this->dgFiles->setColumnHidden('project_id');
@@ -149,7 +149,7 @@ class Media extends BackendBaseActionIndex
 		  
 		$this->dgVideos->setAttributes(array('class' => 'dataGrid sequenceByDragAndDrop'));
 		$this->dgVideos->setAttributes(array('id' => 'projects_videos_dg'));
-		$this->dgVideos->setAttributes(array('data-action' => 'sequence_videos'));
+		$this->dgVideos->setAttributes(array('data-action' => 'SequenceVideos'));
 	      
 		$this->dgVideos->setColumnHidden('project_id');
 	      
