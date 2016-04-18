@@ -59,7 +59,7 @@ class Media extends BackendBaseActionIndex
 		}
 		
 		// the project does not exist
-		else $this->redirect(BackendModel::createURLForAction('index') . '&error=non-existing');
+		else $this->redirect(BackendModel::createURLForAction('Index') . '&error=non-existing');
 	}
 
 	/**

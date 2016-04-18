@@ -29,7 +29,7 @@ class SequenceVideos extends BackendBaseAJAXAction
 		//die('test');
 		
 		// get parameters
-		$newIdSequence = trim(SpoonFilter::getPostValue('new_id_sequence', null, '', 'string'));
+		$newIdSequence = trim(\SpoonFilter::getPostValue('new_id_sequence', null, '', 'string'));
 
 		// list id
 		$ids = (array) explode(',', rtrim($newIdSequence, ','));
