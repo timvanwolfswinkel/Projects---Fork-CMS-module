@@ -86,7 +86,7 @@ jsBackend.projects =
 					{
 						data:
 						{
-							fork: { action: 'sequence_images' },
+							fork: { action: 'SequenceImages' },
 							new_id_sequence: newIdSequence.join(',')
 						},
 						success: function(data, textStatus)
@@ -155,7 +155,7 @@ jsBackend.projects =
 								{
 									data:
 									{
-									fork: { action: 'sequence_projects' },
+									fork: { action: 'SequenceProjects' },
 									projectId: projectId,
 									fromCategoryId: fromCategoryId,
 									toCategoryId: toCategoryId,
